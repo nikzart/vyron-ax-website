@@ -1538,6 +1538,13 @@ blockquote {
   padding-top: 20px;
   padding-bottom: 20px;
   display: flex;
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.services-item:hover {
+  color: var(--default);
 }
 
 .service-nunmber {

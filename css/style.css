@@ -1531,12 +1531,19 @@ blockquote {
   line-height: 50px;
 }
 
+.services-wrapp {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 .services-item {
-  border-bottom: 1px solid var(--border-color);
+  background-color: #191919;
+  border: 1px solid var(--border-color);
+  border-radius: 20px;
   justify-content: flex-start;
   align-items: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 30px 40px;
   display: flex;
   color: inherit;
   text-decoration: none;
@@ -1551,14 +1558,19 @@ blockquote {
   border: 1px solid var(--border-color);
   background-color: #191919;
   border-radius: 4px;
-  padding: 7px;
-  display: inline-block;
+  padding: 14px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  width: 60px;
+  height: 60px;
 }
 
 .service-text {
   text-transform: uppercase;
   flex: none;
-  margin-left: 15px;
+  margin-left: 25px;
   font-size: 40px;
   font-weight: 200;
   line-height: 30px;

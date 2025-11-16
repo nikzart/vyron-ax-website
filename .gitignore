@@ -1,0 +1,12 @@
+# macOS system files
+.DS_Store
+
+# Firebase
+.firebase/
+
+# Node modules (if npm is used in future)
+node_modules/
+
+# Build artifacts
+dist/
+build/

@@ -52,7 +52,7 @@
         <div class="sigle-work-section">
             <div class="w-layout-blockcontainer main-container w-container">
                 <div class="single-work-grid">
-                    <div class="single-work-left">
+                    <div class="single-work-left fade-in-left">
                         <h4 class="single-main-title-heading">Healthcare AI Solutions</h4>
                         <div class="single-left-grid">
                             <div class="single-left-item">
@@ -74,7 +74,7 @@
                         </div>
                         <a href="contact.html" class="button w-button">Get in Touch</a>
                     </div>
-                    <div class="single-work-right">
+                    <div class="single-work-right fade-in-right">
                         <img
                             src="images/services/Healthcare AI.png"
 
@@ -84,44 +84,106 @@
                     </div>
                 </div>
 
-                <div style="margin-top: 80px;">
+                <div style="margin-top: 80px;" class="fade-in-up">
                     <h3 style="color: #fff; font-size: 32px; margin-bottom: 30px;">Key Capabilities</h3>
-                    <div class="single-left-grid">
-                        <div class="single-left-item">
-                            <h5 class="single-detail-heading">Medical Imaging & Diagnostics</h5>
-                            <div class="single-details-text">Build deep learning models for analyzing X-rays, CT scans, MRIs, and pathology images. Detect abnormalities, classify diseases, and provide diagnostic assistance with high accuracy. Support for radiology workflows, image annotation, and integration with PACS systems.</div>
+                    <div class="capability-accordion">
+                        <div class="accordion-item">
+                            <div class="accordion-header">
+                                <div class="accordion-icon-badge"><i class="fa-solid fa-x-ray"></i></div>
+                                <h5 class="accordion-title">Medical Imaging & Diagnostics</h5>
+                                <div class="accordion-toggle"><i class="fa-solid fa-chevron-down"></i></div>
+                            </div>
+                            <div class="accordion-content">
+                                <p class="accordion-text">Build deep learning models for analyzing X-rays, CT scans, MRIs, and pathology images. Detect abnormalities, classify diseases, and provide diagnostic assistance with high accuracy. Support for radiology workflows, image annotation, and integration with PACS systems.</p>
+                            </div>
                         </div>
-                        <div class="single-left-item">
-                            <h5 class="single-detail-heading">Patient Triage & Symptom Checker</h5>
-                            <div class="single-details-text">Develop intelligent triage systems that assess patient symptoms, prioritize cases by urgency, and recommend appropriate care pathways. Use NLP to understand natural language descriptions of symptoms and provide preliminary assessments before clinical consultation.</div>
+
+                        <div class="accordion-item">
+                            <div class="accordion-header">
+                                <div class="accordion-icon-badge"><i class="fa-solid fa-stethoscope"></i></div>
+                                <h5 class="accordion-title">Patient Triage & Symptom Checker</h5>
+                                <div class="accordion-toggle"><i class="fa-solid fa-chevron-down"></i></div>
+                            </div>
+                            <div class="accordion-content">
+                                <p class="accordion-text">Develop intelligent triage systems that assess patient symptoms, prioritize cases by urgency, and recommend appropriate care pathways. Use NLP to understand natural language descriptions of symptoms and provide preliminary assessments before clinical consultation.</p>
+                            </div>
                         </div>
-                        <div class="single-left-item">
-                            <h5 class="single-detail-heading">Electronic Health Records (EHR) Systems</h5>
-                            <div class="single-details-text">Create comprehensive EHR platforms with patient history management, prescription tracking, lab results integration, and appointment scheduling. Support HL7 and FHIR standards for interoperability with existing healthcare systems and secure data exchange between providers.</div>
+
+                        <div class="accordion-item">
+                            <div class="accordion-header">
+                                <div class="accordion-icon-badge"><i class="fa-solid fa-notes-medical"></i></div>
+                                <h5 class="accordion-title">Electronic Health Records (EHR) Systems</h5>
+                                <div class="accordion-toggle"><i class="fa-solid fa-chevron-down"></i></div>
+                            </div>
+                            <div class="accordion-content">
+                                <p class="accordion-text">Create comprehensive EHR platforms with patient history management, prescription tracking, lab results integration, and appointment scheduling. Support HL7 and FHIR standards for interoperability with existing healthcare systems and secure data exchange between providers.</p>
+                            </div>
                         </div>
-                        <div class="single-left-item">
-                            <h5 class="single-detail-heading">Clinical Decision Support</h5>
-                            <div class="single-details-text">Implement AI-powered decision support systems that analyze patient data, suggest differential diagnoses, recommend treatment protocols, and flag potential drug interactions. Provide evidence-based guidance drawn from medical literature and clinical guidelines.</div>
+
+                        <div class="accordion-item">
+                            <div class="accordion-header">
+                                <div class="accordion-icon-badge"><i class="fa-solid fa-heart-pulse"></i></div>
+                                <h5 class="accordion-title">Clinical Decision Support</h5>
+                                <div class="accordion-toggle"><i class="fa-solid fa-chevron-down"></i></div>
+                            </div>
+                            <div class="accordion-content">
+                                <p class="accordion-text">Implement AI-powered decision support systems that analyze patient data, suggest differential diagnoses, recommend treatment protocols, and flag potential drug interactions. Provide evidence-based guidance drawn from medical literature and clinical guidelines.</p>
+                            </div>
                         </div>
-                        <div class="single-left-item">
-                            <h5 class="single-detail-heading">Medical Chatbots & Virtual Assistants</h5>
-                            <div class="single-details-text">Deploy conversational AI for patient engagement, appointment booking, medication reminders, and post-discharge follow-up. Handle routine inquiries, provide health education, and escalate complex cases to human providers with full conversation context.</div>
+
+                        <div class="accordion-item">
+                            <div class="accordion-header">
+                                <div class="accordion-icon-badge"><i class="fa-solid fa-comment-medical"></i></div>
+                                <h5 class="accordion-title">Medical Chatbots & Virtual Assistants</h5>
+                                <div class="accordion-toggle"><i class="fa-solid fa-chevron-down"></i></div>
+                            </div>
+                            <div class="accordion-content">
+                                <p class="accordion-text">Deploy conversational AI for patient engagement, appointment booking, medication reminders, and post-discharge follow-up. Handle routine inquiries, provide health education, and escalate complex cases to human providers with full conversation context.</p>
+                            </div>
                         </div>
-                        <div class="single-left-item">
-                            <h5 class="single-detail-heading">Predictive Healthcare Analytics</h5>
-                            <div class="single-details-text">Build predictive models for hospital readmissions, disease progression, epidemic forecasting, and resource allocation. Use machine learning to identify at-risk patients, optimize staffing levels, and improve operational efficiency across healthcare facilities.</div>
+
+                        <div class="accordion-item">
+                            <div class="accordion-header">
+                                <div class="accordion-icon-badge"><i class="fa-solid fa-wave-square"></i></div>
+                                <h5 class="accordion-title">Predictive Healthcare Analytics</h5>
+                                <div class="accordion-toggle"><i class="fa-solid fa-chevron-down"></i></div>
+                            </div>
+                            <div class="accordion-content">
+                                <p class="accordion-text">Build predictive models for hospital readmissions, disease progression, epidemic forecasting, and resource allocation. Use machine learning to identify at-risk patients, optimize staffing levels, and improve operational efficiency across healthcare facilities.</p>
+                            </div>
                         </div>
-                        <div class="single-left-item">
-                            <h5 class="single-detail-heading">Drug Discovery & Research Tools</h5>
-                            <div class="single-details-text">Develop AI platforms for drug candidate screening, molecular property prediction, and clinical trial optimization. Accelerate pharmaceutical research with computational chemistry tools, literature mining, and automated experiment design for research laboratories.</div>
+
+                        <div class="accordion-item">
+                            <div class="accordion-header">
+                                <div class="accordion-icon-badge"><i class="fa-solid fa-flask"></i></div>
+                                <h5 class="accordion-title">Drug Discovery & Research Tools</h5>
+                                <div class="accordion-toggle"><i class="fa-solid fa-chevron-down"></i></div>
+                            </div>
+                            <div class="accordion-content">
+                                <p class="accordion-text">Develop AI platforms for drug candidate screening, molecular property prediction, and clinical trial optimization. Accelerate pharmaceutical research with computational chemistry tools, literature mining, and automated experiment design for research laboratories.</p>
+                            </div>
                         </div>
-                        <div class="single-left-item">
-                            <h5 class="single-detail-heading">Telemedicine Platforms</h5>
-                            <div class="single-details-text">Create comprehensive telehealth solutions with video consultations, remote patient monitoring, digital prescriptions, and secure messaging. Include scheduling systems, payment processing, insurance verification, and integration with pharmacy networks for complete virtual care delivery.</div>
+
+                        <div class="accordion-item">
+                            <div class="accordion-header">
+                                <div class="accordion-icon-badge"><i class="fa-solid fa-laptop-medical"></i></div>
+                                <h5 class="accordion-title">Telemedicine Platforms</h5>
+                                <div class="accordion-toggle"><i class="fa-solid fa-chevron-down"></i></div>
+                            </div>
+                            <div class="accordion-content">
+                                <p class="accordion-text">Create comprehensive telehealth solutions with video consultations, remote patient monitoring, digital prescriptions, and secure messaging. Include scheduling systems, payment processing, insurance verification, and integration with pharmacy networks for complete virtual care delivery.</p>
+                            </div>
                         </div>
-                        <div class="single-left-item">
-                            <h5 class="single-detail-heading">HIPAA-Compliant Infrastructure</h5>
-                            <div class="single-details-text">Design and deploy secure, HIPAA-compliant cloud infrastructure with end-to-end encryption, access controls, audit logging, and disaster recovery. Implement business associate agreements, security risk assessments, and compliance monitoring for regulated healthcare data.</div>
+
+                        <div class="accordion-item">
+                            <div class="accordion-header">
+                                <div class="accordion-icon-badge"><i class="fa-solid fa-hospital"></i></div>
+                                <h5 class="accordion-title">HIPAA-Compliant Infrastructure</h5>
+                                <div class="accordion-toggle"><i class="fa-solid fa-chevron-down"></i></div>
+                            </div>
+                            <div class="accordion-content">
+                                <p class="accordion-text">Design and deploy secure, HIPAA-compliant cloud infrastructure with end-to-end encryption, access controls, audit logging, and disaster recovery. Implement business associate agreements, security risk assessments, and compliance monitoring for regulated healthcare data.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -183,8 +245,17 @@
         </div>
 
 
+        <!-- Floating Contact Button -->
+        <div class="floating-cta">
+            <a href="contact.html" class="floating-cta-button">
+                <i class="fa-solid fa-comments floating-cta-icon"></i>
+                <span>Contact Us</span>
+            </a>
+        </div>
+
         <script src="js/jquery.min.js" type="text/javascript"></script>
         <script src="js/plugins.js" type="text/javascript"></script>
+        <script src="js/interactions.js" type="text/javascript"></script>
 
 
     </body>
